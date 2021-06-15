@@ -1,14 +1,4 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobidev/simplefolio/
-  Readme: https://github.com/cobidev/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,7 +8,7 @@
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
     <!-- Put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title> Covid Detection</title>
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
     <meta name="keywords" content="[username], [name], skill" />
     <!-- Improve your SEO by adding a small descrption of you -->
@@ -38,7 +28,7 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
-  <!-- Follow the HTML instructions to create your stunning portfolio website -->
+  <!-- Follow the HTML instructions to create website -->
   <body>
     <div id="top"></div>
 
@@ -46,9 +36,10 @@
     <div id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Analysis and Detection of
           <br />
-          I'm the Unknown Developer.
+          <span class="text-color-main"> SARS_CoV-2</span>
+        
         </h1>
         <p class="hero-cta" class="load-hidden">
           <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
@@ -60,14 +51,14 @@
     <!-- **** About Section **** -->
     <section id="about">
       <div class="container">
-        <h2 class="section-title">About me</h2>
+        <h2 class="section-title">About the Project</h2>
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image">
               <img
                 class="img-fluid rounded shadow-lg"
                 height="auto"
-                width="300px"
+                width="500px"
                 src="./assets/profile.jpg"
                 alt="Profile Image"
               />
@@ -76,15 +67,15 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you can!
-              </p>
+                SARS-CoV-2 has been the worst pandemic in the human history for over 100 years.We have put forth this resource which will provide radiology reports and detect Covid-19 virus through patient CT-scan reports. 
+               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                Sentiment studies for various social media platforms along with current tracker of covid-19 across the world will also be displayed.
+                  
               </p>
               <span class="d-flex mt-3">
                 <a target="_blank" class="cta-btn cta-btn--resume" href="">
-                  View Resume
+                  View Report
                 </a>
               </span>
             </div>
@@ -98,23 +89,23 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
+          <h2 class="section-title dark-blue-text">Covid Detection</h2>
 
           <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">Introduction</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    The data collection for covid-19 detection is taken from Negin Medical located at Sari in Iran. This dataset is combined using three different data collections.The images are HRCT radiology scans which are in the format of 16-bit DICOM format and converted into TIFF format as grayscale images.The dataset used for sentiment study is taken from twitter.The data contains location, time and date of tweet along with the original tweet in the form of text.The rest of the study comprises of daily incremental data taken from data world website and is used for visualization. It consists of bubble structure for density of covid cases in that country and includes cases count and death count of the region that the user has selected on the map. 
+
+                                      </p>
+                  <p class="mb-3">
+                  Our goal is to provide this evidence based analysis for people who do not have the resources or access to a radiologist immediately.We do not promote using this webpage as the sole source of diagnosis. A professional should be consulted for further analysis and medication.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://revati99.github.io/tab/">
                   See Live
                 </a>
                 <a target="_blank" class="cta-btn text-color-main" href="#!">
@@ -124,7 +115,9 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
+                <a
+                 href="https://prod-apnortheast-a.online.tableau.com/#/site/majorp/views/SARS-CoV-2/COVID-19GlobalView?:iid=1"
+                 target="_blank">
                   <div data-tilt class="thumbnail rounded">
                     <img class="img-fluid" src="./assets/project.jpg" />
                   </div>
@@ -134,73 +127,7 @@
           </div>
           <!-- /END Project -->
 
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
+         
         </div>
       </div>
     </section>
@@ -209,15 +136,45 @@
     <!-- **** Contact Section **** -->
     <section id="contact">
       <div class="container">
-        <h2 class="section-title">Contact</h2>
+        <h2 class="section-title">Group Members</h2>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a
+          <p class="contact-wrapper__text">Revati Wankhede
+            
+            <br>Rachita Rao </br>
+
+            Shreyas Yelegaonkar
+           
+            <br>Dhruv Nagar</br>
+
+            Contact Us-
+            <a
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
-          >
+            href="mailto:revati.wankhede17@vit.edu"
+            
+            >Revati</a>
+            <a
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:rachita.rao17@vit.edu"
+            
+            >Rachita</a>
+            <a
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:shreyas.yelegaonkar17@vit.edu"
+            
+            >Shreyas</a>
+            <a
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:dhruv.nagar17@vit.edu"
+            
+            >Dhruv</a>
+          
+          </p>
+          
+
         </div>
       </div>
     </section>
@@ -229,52 +186,20 @@
         <a href="#top" class="back-to-top">
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
-        <div class="social-links">
-          <a href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-codepen fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
+        
 
         <hr />
 
-        <!-- If you give me some credit, will be huge for me :) -->
+        
         <p class="footer__text">
-          © 2020 - Template developed by
-          <a href="https://github.com/cobidev" target="_blank"
-            >Jacobo Martínez</a
+          Department of Electronics
+          <a href="https://www.vit.edu/" target="_blank"
+            >  <span class="text-color-main"> VIT Pune</span></a
           >
         </p>
 
         <!-- Remove this paragraph once you setup your custom portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
+        
       </div>
     </footer>
     <!-- /END Footer Section -->
